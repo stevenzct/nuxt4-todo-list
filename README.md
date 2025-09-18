@@ -1,8 +1,10 @@
-[App Screenshot](./public/todolist-nuxt4.png)
-
-# Nuxt4 + Pinia Todos
-
+# Nuxt 4 + Pinia Todos
 A simple Todo application built with **Nuxt 4** and **Pinia** for state management.
+
+---
+
+## 📸 Screenshot
+![App Screenshot](/public/todolist-nuxt4.png)
 
 ---
 
@@ -18,34 +20,21 @@ cd nuxt4-todo-list
 # Install dependencies
 npm install
 
-# Run the development server
+# Start the development server
 npm run dev
 
-🛠 Run (Step-by-Step)
+Then open your browser at 👉 http://localhost:3000
 
-Clone the repository:
+✨ Features
 
-git clone https://github.com/stevenzct/nuxt4-todo-list.git
-cd nuxt4-todo-list
+Pinia Global Store (stores/TodoStore.js) manages todos and actions.
 
+Components: TodoInput, TodoList, TodoItem.
 
-Install dependencies:
-
-npm install
+Nuxt 4 App Entry (app/app.vue) with global styles in app/assets/css/main.css.
 
 
-Start the development server:
-
-npm run dev
-
-
-Open the app in your browser:
-http://localhost:3000
-
-## What I implemented
-- Pinia global store (stores/TodoStore.js) manages all todos and actions.
-- Components: TodoInput, TodoList, TodoItem
-
+📂 Project Structure
 .
 ├── app/
 │   ├── app.vue             # Root app entry (layout wrapper)
