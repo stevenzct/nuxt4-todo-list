@@ -1,75 +1,61 @@
-# Nuxt Minimal Starter
+[App Screenshot](./public/todolist-nuxt4.png)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Nuxt4 + Pinia Todos
 
-## Setup
+A simple Todo application built with **Nuxt 4** and **Pinia** for state management.
 
-Make sure to install dependencies:
+---
+
+## 🚀 Quick Start
 
 ```bash
-# npm
+# Clone the repository
+git clone https://github.com/stevenzct/nuxt4-todo-list.git
+
+# Navigate into the project folder
+cd nuxt4-todo-list
+
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Run the development server
 npm run dev
 
-# pnpm
-pnpm dev
+🛠 Run (Step-by-Step)
 
-# yarn
-yarn dev
+Clone the repository:
 
-# bun
-bun run dev
-```
+git clone https://github.com/stevenzct/nuxt4-todo-list.git
+cd nuxt4-todo-list
 
-## Production
 
-Build the application for production:
+Install dependencies:
 
-```bash
-# npm
-npm run build
+npm install
 
-# pnpm
-pnpm build
 
-# yarn
-yarn build
+Start the development server:
 
-# bun
-bun run build
-```
+npm run dev
 
-Locally preview production build:
 
-```bash
-# npm
-npm run preview
+Open the app in your browser:
+http://localhost:3000
 
-# pnpm
-pnpm preview
+## What I implemented
+- Pinia global store (stores/TodoStore.js) manages all todos and actions.
+- Components: TodoInput, TodoList, TodoItem
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+.
+├── app/
+│   ├── app.vue             # Root app entry (layout wrapper)
+│   └── assets/
+│       └── css/ 
+│           └── main.css    # Global styles
+├── components/
+│   ├── TodoInput.vue
+│   ├── TodoList.vue
+│   └── TodoItem.vue
+├── stores/
+│   └── TodoStore.js
+└── README.md
